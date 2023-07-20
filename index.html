@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/styles.css">
+    <title>Next Invest</title>
+</head>
+<body class="font-josefin text-grey1">
+    <header id="header" class="font-bold py-4">
+        <div class="container mx-auto w-full flex justify-between items-center">
+            <a href="/" class="text-primary text-2xl uppercase">Next Invest</a>
+
+            <nav class="truncate flex justify-between items-center">
+                <ul class="flex space-x-4">
+                    <li class="flex">
+                        <a href="/">Investment Opportunities</a>
+                        <img class="pl-1" src="/src/icons/CaretDown.svg" alt="icon-caret-down">
+                    </li>
+                    <li class="flex">
+                        <a href="/">How it works</a>
+                        <img class="pl-1" src="/src/icons/CaretDown.svg" alt="icon-caret-down">
+                    </li>
+                    <li>
+                        <a href="/">About us</a>
+                    </li>
+                </ul>
+    
+                <ul class="flex space-x-4 ml-6">
+                    <li>
+                        <button class="uppercase text-white bg-primary pt-4 pb-3 px-10">
+                            Login
+                        </button>
+                    </li>
+                    <li>
+                        <button class="uppercase text-secondary border border-secondary   pt-[15px] pb-[11px] px-10">
+                            Register
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main > 
+        <section class="relative">
+            <img src="/src/images/hero-min.png" alt="two businessmen">
+            
+            <div class="container mx-auto w-full">
+                <div class="absolute top-1/2 -translate-y-1/2">
+                    <h1 class="font-bold text-white text-6xl">
+                        Meaningful investments in
+                        </br>
+                        Main Street businesses
+                    </h1>
+            
+                    <p class="text-2xl text-white mt-10 mb-10">
+                        Browse vetted investment offerings in
+                        </br>
+                        communities all over the US.
+                    </p>
+
+                    <button class="uppercase text-white bg-primary px-20 pt-6 pb-5">
+                        Get started
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-40 bg-[url('/src/images/bg-shape-min.png')] bg-no-repeat bg-[top_600px_left]">
+            <div class="container mx-auto w-full flex flex-col items-center">
+                <h2 class="font-bold text-5xl mb-6">
+                    Offerings open for investment
+                </h2>
+
+                <p class="text-center text-grey2 text-2xl mb-12">
+                    Explore pre-vetted investment opportunities available in a growing
+                    </br>
+                    number of industry categories.
+                </p>
+
+                <ul class="grid grid-cols-3 gap-10 mb-20">
+                    <li class="h-[480px] overflow-hidden shadow-lg hover:shadow-2xl">
+                        <article class="w-[370px] hover:-translate-y-[240px] transition-transform">
+                            <div class="relative">
+                                <img src="/src/images/card1-min.png" alt="house">
+                                <ul class="absolute top-6 left-6 flex space-x-2">
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">House</li>
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">Family business</li>
+                                </ul>
+                            </div>
+
+                            <div class="p-6 border-b border-b-grey3">
+                                <h4 class="font-bold text-2xl">Oxalis</h4>
+                                <p class="text-grey2 mb-6 ">Brooklyn, NY</p>
+                                <p class="mb-6">A recognized leader in language immersion & early education, opening second school.</p>
+                                <p class="text-sm before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2 ">
+                                    <span class="text-primary text-base font-bold">$574,920</span>
+                                    raised of $1,000,000</p>
+                            </div>
+
+                            <div>
+                                <ul class="p-6">
+                                    <li class="flex justify-between mb-2">
+                                        <p>Security Type</p>
+                                        <p class="font-bold">Revenue Sharing Note</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Investment Multiple</p>
+                                        <p class="font-bold">1.4x</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Maturity</p>
+                                        <p class="font-bold">48 Months</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Min. Investment</p>
+                                        <p class="font-bold">$100</p>
+                                    </li>
+                                </ul>
+                                <button class="bg-secondary w-full h-[63px] font-bold uppercase text-white">View</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="h-[480px] overflow-hidden shadow-lg hover:shadow-2xl">
+                        <article class="w-[370px] hover:-translate-y-[240px] transition-transform">
+                            <div class="relative">
+                                <img src="/src/images/card2-min.png" alt="house">
+                                <ul class="absolute top-6 left-6 flex space-x-2">
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">House</li>
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">Family business</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="p-6 border-b border-b-grey3">
+                                <h4 class="font-bold text-2xl">Oxalis</h4>
+                                <p class="text-grey2 mb-6 ">Brooklyn, NY</p>
+                                <p class="mb-6">A recognized leader in language immersion & early education, opening second school.</p>
+                                <p
+                                    class="text-sm before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2 ">
+                                    <span class="text-primary text-base font-bold">$574,920</span>
+                                    raised of $1,000,000
+                                </p>
+                            </div>
+                    
+                            <div>
+                                <ul class="p-6">
+                                    <li class="flex justify-between mb-2">
+                                        <p>Security Type</p>
+                                        <p class="font-bold">Revenue Sharing Note</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Investment Multiple</p>
+                                        <p class="font-bold">1.4x</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Maturity</p>
+                                        <p class="font-bold">48 Months</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Min. Investment</p>
+                                        <p class="font-bold">$100</p>
+                                    </li>
+                                </ul>
+                                <button class="bg-secondary w-full h-[63px] font-bold uppercase text-white">View</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="h-[480px] overflow-hidden shadow-lg hover:shadow-2xl">
+                        <article class="w-[370px] hover:-translate-y-[240px] transition-transform">
+                            <div class="relative">
+                                <img src="/src/images/card3-min.png" alt="house">
+                                <ul class="absolute top-6 left-6 flex space-x-2">
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">House</li>
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">Family business</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="p-6 border-b border-b-grey3">
+                                <h4 class="font-bold text-2xl">Oxalis</h4>
+                                <p class="text-grey2 mb-6 ">Brooklyn, NY</p>
+                                <p class="mb-6">A recognized leader in language immersion & early education, opening second school.</p>
+                                <p
+                                    class="text-sm before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2 ">
+                                    <span class="text-primary text-base font-bold">$574,920</span>
+                                    raised of $1,000,000
+                                </p>
+                            </div>
+                    
+                            <div>
+                                <ul class="p-6">
+                                    <li class="flex justify-between mb-2">
+                                        <p>Security Type</p>
+                                        <p class="font-bold">Revenue Sharing Note</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Investment Multiple</p>
+                                        <p class="font-bold">1.4x</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Maturity</p>
+                                        <p class="font-bold">48 Months</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Min. Investment</p>
+                                        <p class="font-bold">$100</p>
+                                    </li>
+                                </ul>
+                                <button class="bg-secondary w-full h-[63px] font-bold uppercase text-white">View</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="h-[480px] overflow-hidden shadow-lg hover:shadow-2xl">
+                        <article class="w-[370px] hover:-translate-y-[240px] transition-transform">
+                            <div class="relative">
+                                <img src="/src/images/card4-min.png" alt="house">
+                                <ul class="absolute top-6 left-6 flex space-x-2">
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">House</li>
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">Family business</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="p-6 border-b border-b-grey3">
+                                <h4 class="font-bold text-2xl">Oxalis</h4>
+                                <p class="text-grey2 mb-6 ">Brooklyn, NY</p>
+                                <p class="mb-6">A recognized leader in language immersion & early education, opening second school.</p>
+                                <p
+                                    class="text-sm before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2 ">
+                                    <span class="text-primary text-base font-bold">$574,920</span>
+                                    raised of $1,000,000
+                                </p>
+                            </div>
+                    
+                            <div>
+                                <ul class="p-6">
+                                    <li class="flex justify-between mb-2">
+                                        <p>Security Type</p>
+                                        <p class="font-bold">Revenue Sharing Note</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Investment Multiple</p>
+                                        <p class="font-bold">1.4x</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Maturity</p>
+                                        <p class="font-bold">48 Months</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Min. Investment</p>
+                                        <p class="font-bold">$100</p>
+                                    </li>
+                                </ul>
+                                <button class="bg-secondary w-full h-[63px] font-bold uppercase text-white">View</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="h-[480px] overflow-hidden shadow-lg hover:shadow-2xl">
+                        <article class="w-[370px] hover:-translate-y-[240px] transition-transform">
+                            <div class="relative">
+                                <img src="/src/images/card5-min.png" alt="house">
+                                <ul class="absolute top-6 left-6 flex space-x-2">
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">House</li>
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">Family business</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="p-6 border-b border-b-grey3">
+                                <h4 class="font-bold text-2xl">Oxalis</h4>
+                                <p class="text-grey2 mb-6 ">Brooklyn, NY</p>
+                                <p class="mb-6">A recognized leader in language immersion & early education, opening second school.</p>
+                                <p
+                                    class="text-sm before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2 ">
+                                    <span class="text-primary text-base font-bold">$574,920</span>
+                                    raised of $1,000,000
+                                </p>
+                            </div>
+                    
+                            <div>
+                                <ul class="p-6">
+                                    <li class="flex justify-between mb-2">
+                                        <p>Security Type</p>
+                                        <p class="font-bold">Revenue Sharing Note</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Investment Multiple</p>
+                                        <p class="font-bold">1.4x</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Maturity</p>
+                                        <p class="font-bold">48 Months</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Min. Investment</p>
+                                        <p class="font-bold">$100</p>
+                                    </li>
+                                </ul>
+                                <button class="bg-secondary w-full h-[63px] font-bold uppercase text-white">View</button>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="h-[480px] overflow-hidden shadow-lg hover:shadow-2xl">
+                        <article class="w-[370px] hover:-translate-y-[240px] transition-transform">
+                            <div class="relative">
+                                <img src="/src/images/card6-min.png" alt="house">
+                                <ul class="absolute top-6 left-6 flex space-x-2">
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">House</li>
+                                    <li class="uppercase font-bold text-[10px] px-3 py-2 bg-white/80">Family business</li>
+                                </ul>
+                            </div>
+                    
+                            <div class="p-6 border-b border-b-grey3">
+                                <h4 class="font-bold text-2xl">Oxalis</h4>
+                                <p class="text-grey2 mb-6 ">Brooklyn, NY</p>
+                                <p class="mb-6">A recognized leader in language immersion & early education, opening second school.</p>
+                                <p
+                                    class="text-sm before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2 ">
+                                    <span class="text-primary text-base font-bold">$574,920</span>
+                                    raised of $1,000,000
+                                </p>
+                            </div>
+                    
+                            <div>
+                                <ul class="p-6">
+                                    <li class="flex justify-between mb-2">
+                                        <p>Security Type</p>
+                                        <p class="font-bold">Revenue Sharing Note</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Investment Multiple</p>
+                                        <p class="font-bold">1.4x</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Maturity</p>
+                                        <p class="font-bold">48 Months</p>
+                                    </li>
+                                    <li class="flex justify-between mb-2">
+                                        <p>Min. Investment</p>
+                                        <p class="font-bold">$100</p>
+                                    </li>
+                                </ul>
+                                <button class="bg-secondary w-full h-[63px] font-bold uppercase text-white">View</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+
+                <button class="font-bold uppercase text-secondary border border-secondary px-10 pt-6 pb-5">View All Projects</button>
+            </div>
+        </section>
+
+        <section class="py-40 bg-sky bg-[url('/src/images/bg-semicircle-min.png'),_url('/src/images/bg-wave-min.png')] bg-no-repeat bg-[position:top_right_5%,_bottom_left]">
+            <div class="container mx-auto w-full flex justify-between space-x-4">
+                <div>
+                    <img class="mb-10" src="/src/icons/Subtract.svg" alt="icon-subtract">
+                    <h2 class="font-bold text-5xl leading-snug mb-6">$7M+ paid out to investors</h2>
+                    <p class="text-grey2 text-2xl">Next Invest has already paid out over $7M in cash returns to investors. Earn potential cash payments through unique
+                    revenue-share and debt financing investments.</p>
+                </div>
+
+                <img src="/src/images/Chart-min.png" alt="chart">
+            </div>
+        </section>
+
+        <section class="py-44 bg-[url('/src/images/bg-shape-min.png')] bg-no-repeat bg-[top_145px_right]">
+            <div class="container mx-auto w-full flex justify-between space-x-32">
+                <div>
+                    <h2 class="font-bold text-5xl leading-snug mb-6">Looking to raise capital
+                    for your growing business?</h2>
+                    <p class="text-grey2 text-2xl mb-10">Whether expanding or opening a brand-new concept, we make it easy to raise money from thousands of local investors.</p>
+                    <button class="font-bold uppercase text-white bg-primary px-10 pt-6 pb-5">Apply online</button>
+                </div>
+
+                <img src="/src/images/money-tree-min.png" alt="money tree">
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 bg-grey3">
+        <div class="container mx-auto w-full flex justify-between">
+            <div class="flex space-x-32">
+                <div class="flex flex-col justify-between">
+                    <div class="mb-48">
+                        <a class="text-2xl font-bold uppercase" href="/">Next Invest</a>
+                        <p class="mt-7">Copyright © 2023. LogoIpsum. All rights reserved.</p>
+                    </div>
+                
+                    <div>
+                        <p class="text-2xl leading-9 mb-4">Subscribe to our newsletter</p>
+
+                        <label class="border-b border-b-grey2  block w-[370px] relative">
+                            <input type="email" placeholder="Email address" class="h-12 bg-grey3 w-full outline-none">
+                            <button type="submit" class="absolute top-0 right-0 h-full w-12 bg-secondary flex justify-center items-center rounded-t-lg">
+                                <img src="/src/icons/CaretRight.svg" alt="icon-caret-right">
+                            </button>
+                        </label>
+                    </div>
+                </div>
+                
+                <ul class="space-y-4">
+                    <li class="font-bold text-lg">Careers</li>
+                    <li><a href="/">Email Marketing</a></li>
+                    <li><a href="/">Campaigns</a></li>
+                    <li><a href="/">Branding</a></li>
+                    <li><a href="/">Offline</a></li>
+                </ul>
+            </div>
+
+            <div class="flex space-x-32">
+                <ul class="space-y-4">
+                    <li class="font-bold text-lg">About</li>
+                    <li><a href="/">Our Story</a></li>
+                    <li><a href="/">Benefits</a></li>
+                    <li><a href="/">Team</a></li>
+                    <li><a href="/">Offline</a></li>
+                </ul>
+                
+                <div class="flex flex-col justify-between items-end">
+                    <a href="#"><img src="/src/icons/CaretUp.svg" alt="icon-caret-up"></a>
+                
+                    <ul class="flex space-x-10">
+                        <li><a href="/"><img src="/src/icons/facebook.svg" alt="icon-facebook"></a></li>
+                        <li><a href="/"><img src="/src/icons/twitter.svg" alt="icon-twitter"></a></li>
+                        <li><a href="/"><img src="/src/icons/instagram.svg" alt="icon-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
