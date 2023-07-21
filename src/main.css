@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-progress-bar {
+  @apply before:content-[''] before:block before:h-2 before:bg-gradient-to-r before:from-primary before:from-55% before:to-grey3 before:to-55% before:mb-2;
+}
+
+.card-chip {
+  @apply uppercase font-bold text-[10px] px-3 py-2 bg-white/80;
+}
+
+.card-button {
+  @apply bg-secondary w-full h-[63px] font-bold uppercase text-white;
+}
