@@ -819,7 +819,7 @@ video {
 }
 
 .bg-wave-texture {
-  background-image: url('images/bg-semicircle-min.png'), url('./src/images/bg-wave-min.png');
+  background-image: url('images/bg-semicircle-min.png'), url('images/bg-wave-min.png');
 }
 
 .bg-\[position\:top_right_5\%\2c _bottom_left\] {
