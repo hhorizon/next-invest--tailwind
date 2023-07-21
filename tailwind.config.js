@@ -19,9 +19,9 @@ module.exports = {
         josefin: ["Josefin Sans", "sans-serif"],
       },
       backgroundImage: {
-        "shape-texture": "url('/src/images/bg-shape-min.png')",
+        "shape-texture": "url('./src/images/bg-shape-min.png')",
         "wave-texture":
-          "url('/src/images/bg-semicircle-min.png'), url('/src/images/bg-wave-min.png')",
+          "url('./src/images/bg-semicircle-min.png'), url('./src/images/bg-wave-min.png')",
       },
     },
   },
