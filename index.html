@@ -12,20 +12,24 @@
 <body class="font-josefin text-grey1">
     <header id="header" class="font-bold py-4">
         <div class="container mx-auto w-full flex justify-between items-center">
-            <a href="/" class="text-primary text-2xl uppercase">Next Invest</a>
+            <a href="#" class="text-primary text-2xl uppercase">Next Invest</a>
 
             <nav class="truncate flex justify-between items-center">
                 <ul class="flex space-x-4">
-                    <li class="flex">
-                        <a href="/">Investment Opportunities</a>
-                        <img class="pl-1" src="./src/icons/CaretDown.svg" alt="icon-caret-down">
+                    <li class="flex items-center">
+                        <a href="#">Investment Opportunities</a>
+                        <svg class="fill-none stroke-grey1 h-4 w-4 ml-1">
+                            <use href="./src/icons/sprite.svg#icon-chevronDown"></use>
+                        </svg>
                     </li>
-                    <li class="flex">
-                        <a href="/">How it works</a>
-                        <img class="pl-1" src="./src/icons/CaretDown.svg" alt="icon-caret-down">
+                    <li class="flex items-center">
+                        <a href="#">How it works</a>
+                        <svg class="fill-none stroke-grey1 h-4 w-4 ml-1">
+                            <use href="./src/icons/sprite.svg#icon-chevronDown"></use>
+                        </svg>
                     </li>
                     <li>
-                        <a href="/">About us</a>
+                        <a href="#">About us</a>
                     </li>
                 </ul>
     
@@ -355,8 +359,11 @@
         <section class="py-40 bg-sky bg-[url('./src/images/bg-semicircle-min.png'),_url('./src/images/bg-wave-min.png')] bg-no-repeat bg-[position:top_right_5%,_bottom_left]">
             <div class="container mx-auto w-full flex justify-between space-x-4">
                 <div>
-                    <img class="mb-10" src="./src/icons/Subtract.svg" alt="icon-subtract">
-                    <h2 class="font-bold text-5xl leading-snug mb-6">$7M+ paid out to investors</h2>
+                    <svg class="h-14 w-14 mb-10">
+                        <use href="./src/icons/sprite.svg#icon-subtract"></use>
+                    </svg>
+
+                    <h2 class="font-bold text-5xl leading-snug mb-6">&#36;7M+ paid out to investors</h2>
                     <p class="text-grey2 text-2xl">Next Invest has already paid out over $7M in cash returns to investors. Earn potential cash payments through unique
                     revenue-share and debt financing investments.</p>
                 </div>
@@ -384,7 +391,7 @@
             <div class="flex space-x-32">
                 <div class="flex flex-col justify-between">
                     <div class="mb-48">
-                        <a class="text-2xl font-bold uppercase" href="/">Next Invest</a>
+                        <a class="text-2xl font-bold uppercase" href="#">Next Invest</a>
                         <p class="mt-7">Copyright © 2023. LogoIpsum. All rights reserved.</p>
                     </div>
                 
@@ -394,7 +401,9 @@
                         <label class="border-b border-b-grey2  block w-[370px] relative">
                             <input type="email" placeholder="Email address" class="h-12 bg-grey3 w-full outline-none">
                             <button type="submit" class="absolute top-0 right-0 h-full w-12 bg-secondary flex justify-center items-center rounded-t-lg">
-                                <img src="./src/icons/CaretRight.svg" alt="icon-caret-right">
+                            <svg class="h-6 w-6">
+                                <use href="./src/icons/sprite.svg#icon-chevronRight"></use>
+                            </svg>
                             </button>
                         </label>
                     </div>
@@ -402,29 +411,45 @@
                 
                 <ul class="space-y-4">
                     <li class="font-bold text-lg">Careers</li>
-                    <li><a href="/">Email Marketing</a></li>
-                    <li><a href="/">Campaigns</a></li>
-                    <li><a href="/">Branding</a></li>
-                    <li><a href="/">Offline</a></li>
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Campaigns</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Offline</a></li>
                 </ul>
             </div>
 
             <div class="flex space-x-32">
                 <ul class="space-y-4">
                     <li class="font-bold text-lg">About</li>
-                    <li><a href="/">Our Story</a></li>
-                    <li><a href="/">Benefits</a></li>
-                    <li><a href="/">Team</a></li>
-                    <li><a href="/">Offline</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Benefits</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Offline</a></li>
                 </ul>
                 
                 <div class="flex flex-col justify-between items-end">
-                    <a href="#"><img src="./src/icons/CaretUp.svg" alt="icon-caret-up"></a>
+                    <a href="#" class="flex justify-center items-center w-12 h-12 bg-primary rounded-full">
+                        <svg class="h-6 w-6">
+                            <use href="./src/icons/sprite.svg#icon-chevronUp"></use>
+                        </svg>
+                    </a>
                 
                     <ul class="flex space-x-10">
-                        <li><a href="/"><img src="./src/icons/facebook.svg" alt="icon-facebook"></a></li>
-                        <li><a href="/"><img src="./src/icons/twitter.svg" alt="icon-twitter"></a></li>
-                        <li><a href="/"><img src="./src/icons/instagram.svg" alt="icon-instagram"></a></li>
+                        <li><a href="#">
+                            <svg class="h-5 w-5">
+                                <use href="./src/icons/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a></li>
+                        <li><a href="#">
+                            <svg class="h-5 w-5">
+                                <use href="./src/icons/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                        </li><li><a href="#">
+                            <svg class="h-5 w-5">
+                                <use href="./src/icons/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a></li>
                     </ul>
                 </div>
             </div>
