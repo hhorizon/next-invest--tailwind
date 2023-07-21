@@ -794,10 +794,6 @@ video {
   border-bottom-color: rgb(236 236 236 / var(--tw-border-opacity));
 }
 
-.bg-\[semicircleTexture\2c _waveTexture\] {
-  background-color: semicircleTexture, waveTexture;
-}
-
 .bg-grey3 {
   --tw-bg-opacity: 1;
   background-color: rgb(236 236 236 / var(--tw-bg-opacity));
@@ -819,11 +815,11 @@ video {
 }
 
 .bg-shape-texture {
-  background-image: url('/src/images/bg-shape-min.png');
+  background-image: url('images/bg-shape-min.png');
 }
 
 .bg-wave-texture {
-  background-image: url('/src/images/bg-semicircle-min.png'), url('/src/images/bg-wave-min.png');
+  background-image: url('images/bg-semicircle-min.png'), url('./src/images/bg-wave-min.png');
 }
 
 .bg-\[position\:top_right_5\%\2c _bottom_left\] {
