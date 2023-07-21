@@ -21,7 +21,7 @@ module.exports = {
       backgroundImage: {
         "shape-texture": "url('images/bg-shape-min.png')",
         "wave-texture":
-          "url('images/bg-semicircle-min.png'), url('./src/images/bg-wave-min.png')",
+          "url('images/bg-semicircle-min.png'), url('images/bg-wave-min.png')",
       },
     },
   },
